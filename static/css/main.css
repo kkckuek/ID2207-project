@@ -1,4 +1,37 @@
-body{
-    margin: 0;
-    font-family: sans-serif;
+.login {
+    display: flex;
+    justify-content: center;       /* Centers horizontally */
+    align-items: center;           /* Centers vertically */
+    height: 100vh;
+    flex-direction: column;
+}
+
+.login_content{
+    display: flex;
+    justify-content: center;       /* Centers horizontally */
+    align-items: center;           /* Centers vertically */
+    flex-direction: column;
+    gap: 10px;
+}
+.login_content_row{
+    display: flex;
+    gap: 30px;
+}
+
+.login_content_button {
+    display: inline-flex;       /* Inline-flex to maintain button-like behavior */
+    justify-content: center;    /* Centers horizontally */
+    align-items: center;        /* Centers vertically */
+    padding: 40px 100px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px; 
+    width: 30px;
+    height: 30px;
+}
+
+.login_content_button:hover {
+    background-color: #0056b3;       /* Darker color on hover */
 }
